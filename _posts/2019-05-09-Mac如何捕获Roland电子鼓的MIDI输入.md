@@ -2,17 +2,49 @@
 layout: post
 ---
 先去罗兰的英文官网下载驱动，之前我去中文官网找了半天最新只找到TD-11k关于10.12的驱动，后来去英文官网才找到10.14的驱动。
+[roland驱动]找到自己设备对映的型号。
+![](/assets/imgs/15574779513687.jpg)
+然后找到自己系统版本对映的驱动
+![](/assets/imgs/15574782351244.jpg)
+Agree下载安装。
+![](/assets/imgs/15574783490972.jpg)
+安装后需要重启下电脑。
+![](/assets/imgs/15577205401494.jpg)
+然后还要按照readme文件里的说明进行一下设置。
+![](/assets/imgs/15577208508178.jpg)
+这个htm的后缀名我这边直接双击是打不开，手动拖到浏览器打开。
+![](/assets/imgs/15577212745171.jpg)
+## 主要的设置就是MIDI设备的添加
+1. 先用USB线连接Mac和电子鼓，之后再打开电子鼓的电源。（线是我后来另外买的，一头是USB一头叫不出名字）。
+2. 打开MIDI设置这个app
+3. ![](/assets/imgs/15577309831595.jpg)
+ 	 
+4. 然后显示MIDI工作室
+![](/assets/imgs/15577311620964.jpg)
+4. 如果按上面的步骤安装过驱动，这个时候TD-11这个就会显示在面板上。
+![](/assets/imgs/15577293944508.jpg)
+5. 如果是灰色的把电子鼓关了再开机。（或者是线有问题，接口接触不良什么的）
+![](/assets/imgs/15577294814805.jpg)
+6. 如果没有显示可以单击右上角的顺时针箭头试一下，不然有可能是驱动没安装好。（卸载了再安装一遍）
+![](/assets/imgs/15577320194563.jpg)
+7. 如果一切正常，单击加号按钮添加新设备
+![](/assets/imgs/15577323326503.jpg)
 
-还没写完……
+8. 双击新外部设备，重命名为你设备的型号。（比如我的TD-11）
+ ![](/assets/imgs/15577324351049.jpg)
+9. 点击应用
+![屏幕快照 2019-05-13 下午3.28.02](/assets/imgs/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202019-05-13%20%E4%B8%8B%E5%8D%883.28.02.png)
+10. 按图上所示拖动箭头把他们连接起来。
+![](/assets/imgs/15577327267350.jpg)
+11. 然后点亮右上角的键盘开始按钮测试。(我这边mac没有连接电子鼓所以是上面的Td-11是灰色的，正常连接上要是亮的）
+![](/assets/imgs/15577330589387.jpg)
+12. 如果一切正常点击图上的箭头应该就会从连接电子鼓的耳机或者扬声器里听到声音。（如果带耳机记得把电子鼓的声音先关小点）
+13. ![](/assets/imgs/15577336770635.jpg)
+14. 如果没有声音那可能是以上哪一步没做好，或者是其他什么问题我就不知道了。
+15. 以上就可以使mac捕获到电子鼓的MIDI信号了，之后就可以连接FL studio或者其他一些软件开始录音了。（具体怎么录就要看各自软件的介绍了）
+
+[roland驱动]:https://www.roland.com/us/support/updates_drivers/t_z/
 
 
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
-
-[jekyll-docs]: http://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
-
-
-
-![IMG_1728](/assets/imgs/IMG_1721-1.jpg)
+ 
 
